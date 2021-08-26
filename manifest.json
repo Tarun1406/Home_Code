@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Home Code",
+  "description": "This is a place where you can get competative coding contest of all sites",
+  "version": "1",
+  "icons": { 
+    "16":"16image.png",
+    "48":"48image.png",
+    "128": "128image.png" }, 
+  
+    "browser_action": {
+    "default_icon": "16image.png",
+    "default_title": "GO FOR CONTEST",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
